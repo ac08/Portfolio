@@ -1,0 +1,95 @@
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    background: none;
+}
+
+.jumbotron-text {
+    color: rgb(99, 96, 96);
+}
+
+body, html {
+    height: 100%;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url('./assets/cover/desert.jpg');
+    
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cover-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+.cover-line {
+    font-family: 'Niconne', cursive;
+  }
+
+.social-icons a {
+    margin-left: 1em;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.arrow {
+    margin-top: 1rem;
+}
+
+/* Hide short text by default (resolution > 465px) */
+.short-text { 
+    display: none; 
+}
+
+@media screen and (max-width: 465px) {
+    .cover-name {
+        font-size: 2rem;
+    }
+    /* When resolution <= 465px, hide full text and show short text */
+    .short-text { 
+        display: inline-block; 
+    }
+    .full-text { 
+        display: none; 
+    }
+}
+
+ul::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    right: auto;
+    bottom: 0;
+    /* margin-left: -150px; */
+    background: rgba(117,81,125,0.15);
+}
+
+.modal-button {
+    cursor: pointer !important;
+}
+
+
