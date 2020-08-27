@@ -82,11 +82,11 @@ You are required to submit the following:
 
 * The URLs of the deployed applications:
 
-
+https://ac08.github.io/Portfolio/
 
 * The URLs of the GitHub repositories:
 
-
+https://github.com/ac08/Portfolio
 
 - - -
 
