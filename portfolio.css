@@ -1,0 +1,46 @@
+/* section::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -150px;
+    background: rgba(117,81,125,0.15);
+} */
+
+p {
+    line-height: 1.5;
+}
+.bg-portfolio {
+    background-color: #ffeddb;
+    height: 100%;
+    width: 100%
+}
+
+.project-img {
+    border: 6px solid #fff;
+    width: 300px;
+    height: 225px;
+}
+
+.portfolio-name {
+    color: #1b2947;
+}
+
+/* @media screen and (min-width: 992px) {
+    .project-img {
+        width: 400px !important;
+        height: 300px !important;
+    }
+    .container-fluid {
+        width: 100% !important;
+    }
+} */
+
+
+/* temporary borders */
+.border {
+    border-color: black !important;
+}
