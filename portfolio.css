@@ -13,6 +13,11 @@
 p {
     line-height: 1.5;
 }
+
+.btn {
+    border-radius: 0 !important;
+}
+
 .bg-portfolio {
     background-color: #ffeddb;
     height: 100%;
