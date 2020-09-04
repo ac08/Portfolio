@@ -22,7 +22,7 @@ body {
 
 .bg-custom {
     /* Center and scale the image nicely */
-    background-image: url('./assets/cover/desert.jpg');
+    background-image: url('/Users/andrewcircelli/Desktop/Case Western Reserve/REPOS/Portfolio/assets/cover/desert.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
